@@ -10,11 +10,11 @@ let dateSettingId;
 let localEle = localStorage.getItem("Note");
 console.log(localEle);
 let localEle2 = JSON.parse(localEle) || [];
+// let valueDescrip=document.getElementById("message-text").value;
+// let colorPicker=document.getElementById("recipient-name1").value;
+// let dateSelector=document.getElementById("recipient-name2").value;
+// let x=document.getElementById("recipient-name").value;
 document.getElementById('hidding').style.display = "none";
-let x=document.getElementById("recipient-name").value;
-let valueDescrip=document.getElementById("message-text").value;
-let colorPicker=document.getElementById("recipient-name1").value;
-let dateSelector=document.getElementById("recipient-name2").value;
 
 /**
   ************** we are going develop a program in which user write notes:*********************
